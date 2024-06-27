@@ -3,110 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embedded Form</title>
+    <title>Job Openings - Social Solutions</title>
     <style>
         body {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
             font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
             display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            background-color: #f0f0f0; /* Optional: add a background color */
+            flex-direction: column;
+            padding: 20px;
         }
 
-        #leadforms-embd-form {
+        .container {
+            max-width: 800px;
             width: 100%;
-            max-width: 600px; /* Adjust the max-width as needed */
-            padding: 20px;
             background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            box-sizing: border-box;
-        }
-
-        .job-description {
-            max-width: 600px;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
             margin-bottom: 20px;
         }
 
-        .job-description h2 {
-            margin-top: 0;
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
         }
 
-        .job-description p {
-            margin: 0;
+        .job-description {
+            padding: 20px;
+        }
+
+        .job-description h2, .job-description h3, .job-description h4 {
+            color: #4CAF50;
+        }
+
+        .job-description p, .job-description ul {
+            line-height: 1.6;
+        }
+
+        .job-description ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .apply-now {
+            text-align: center;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .apply-now a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .apply-now a:hover {
+            background-color: #45a049;
         }
     </style>
 </head>
 <body>
-    <div class="job-description">
-        <h2>Job Openings: Social Media Manager & Assistant</h2>
-        <p><strong>Company:</strong> Social Solutions</p>
-        <p><strong>Location:</strong> [Your Location]</p>
-        <p><strong>Commission:</strong> 40-50%</p>
-        <p><strong>Perks:</strong> Company Phone</p>
-        
-        <h3>Social Media Manager Position:</h3>
-        <p>We are seeking a dynamic and creative Social Media Manager to join our team at Social Solutions. As a Social Media Manager, you will be responsible for developing and implementing social media strategies to increase our clients' online presence and improve their marketing and sales efforts. Your role will involve creating engaging content, managing social media accounts, analyzing performance metrics, and staying updated with the latest digital marketing trends.</p>
-        
-        <h4>Key Responsibilities:</h4>
-        <ul>
-            <li>Develop, implement, and manage social media strategies for clients.</li>
-            <li>Create and curate engaging content across various social media platforms.</li>
-            <li>Monitor and analyze social media performance using analytics tools.</li>
-            <li>Collaborate with clients to ensure brand consistency and alignment with their goals.</li>
-            <li>Stay updated with the latest social media best practices and technologies.</li>
-            <li>Respond to comments, messages, and inquiries in a timely manner.</li>
-        </ul>
-        
-        <h4>Qualifications:</h4>
-        <ul>
-            <li>Proven experience as a Social Media Manager or similar role.</li>
-            <li>Excellent knowledge of Facebook, Twitter, LinkedIn, Pinterest, Instagram, and other social media platforms.</li>
-            <li>Strong understanding of social media KPIs, SEO, and web traffic metrics.</li>
-            <li>Excellent communication, multitasking, and analytical skills.</li>
-            <li>Creative mindset with the ability to think outside the box.</li>
-        </ul>
+    <div class="container">
+        <div class="header">
+            <h1>Join Our Team at Social Solutions!</h1>
+        </div>
+        <div class="job-description">
+            <h2>Job Openings: Social Media Manager & Assistant</h2>
+            <p><strong>Company:</strong> Social Solutions</p>
+            <p><strong>Location:</strong> [Your Location]</p>
+            <p><strong>Commission:</strong> 40-50%</p>
+            <p><strong>Perks:</strong> Company Phone</p>
+            
+            <h3>Social Media Manager Position:</h3>
+            <p>We are seeking a dynamic and creative Social Media Manager to join our team at Social Solutions. Your role will involve creating engaging content, managing social media accounts, analyzing performance metrics, and staying updated with the latest digital marketing trends.</p>
+            
+            <h4>Key Responsibilities:</h4>
+            <ul>
+                <li>Develop, implement, and manage social media strategies for clients.</li>
+                <li>Create and curate engaging content across various social media platforms.</li>
+                <li>Monitor and analyze social media performance using analytics tools.</li>
+                <li>Collaborate with clients to ensure brand consistency and alignment with their goals.</li>
+                <li>Respond to comments, messages, and inquiries in a timely manner.</li>
+            </ul>
+            
+            <h4>Qualifications:</h4>
+            <ul>
+                <li>Proven experience as a Social Media Manager or similar role.</li>
+                <li>Excellent knowledge of social media platforms (Facebook, Twitter, LinkedIn, Instagram, etc.).</li>
+                <li>Strong understanding of social media KPIs, SEO, and web traffic metrics.</li>
+                <li>Excellent communication, multitasking, and analytical skills.</li>
+            </ul>
 
-        <h3>Assistant Position:</h3>
-        <p>We are also looking for a dedicated Assistant to provide administrative support to our team at Social Solutions. The ideal candidate will be highly organized, detail-oriented, and able to handle multiple tasks efficiently. As an Assistant, you will assist with scheduling, client communication, data entry, and other administrative duties as needed.</p>
-        
-        <h4>Key Responsibilities:</h4>
-        <ul>
-            <li>Provide administrative support to the team.</li>
-            <li>Assist in scheduling meetings and managing calendars.</li>
-            <li>Handle client communication and respond to inquiries.</li>
-            <li>Perform data entry and maintain accurate records.</li>
-            <li>Support the team in various projects and tasks as needed.</li>
-        </ul>
-        
-        <h4>Qualifications:</h4>
-        <ul>
-            <li>Previous experience in an administrative role is preferred.</li>
-            <li>Excellent organizational and time-management skills.</li>
-            <li>Strong communication and interpersonal skills.</li>
-            <li>Proficient in Microsoft Office Suite and other relevant software.</li>
-            <li>Ability to work independently and as part of a team.</li>
-        </ul>
+            <h3>Assistant Position:</h3>
+            <p>We are looking for a dedicated Assistant to support our social media efforts. The ideal candidate will assist in content creation, scheduling posts, engaging with followers, and analyzing social media performance.</p>
+            
+            <h4>Key Responsibilities:</h4>
+            <ul>
+                <li>Assist in creating and scheduling social media content.</li>
+                <li>Monitor social media channels and engage with followers.</li>
+                <li>Help analyze social media performance and generate reports.</li>
+                <li>Support the Social Media Manager with various tasks and projects.</li>
+            </ul>
+            
+            <h4>Qualifications:</h4>
+            <ul>
+                <li>Previous experience in an administrative or social media role is preferred.</li>
+                <li>Strong organizational and time-management skills.</li>
+                <li>Good communication and interpersonal skills.</li>
+                <li>Proficiency in Microsoft Office Suite and social media platforms.</li>
+            </ul>
 
-        <p><strong>Benefits:</strong></p>
-        <ul>
-            <li>Competitive commission structure (40-50%).</li>
-            <li>Company phone provided.</li>
-            <li>Opportunity to work in a dynamic and growing industry.</li>
-        </ul>
+            <p><strong>Benefits:</strong></p>
+            <ul>
+                <li>Competitive commission structure (40-50%).</li>
+                <li>Company phone provided.</li>
+                <li>Opportunity to work in a dynamic and growing industry.</li>
+            </ul>
 
-        <p>If you are passionate about social media and eager to contribute to a vibrant team, we would love to hear from you!</p>
-
-        <p><strong>Apply Now:</strong></p>
+            <p>If you are passionate about social media and eager to contribute to a vibrant team, we would love to hear from you!</p>
+        </div>
+        <div class="apply-now">
+            <a href="#leadforms-embd-form">Apply Now</a>
+        </div>
     </div>
 
     <div id="leadforms-embd-form"></div>
